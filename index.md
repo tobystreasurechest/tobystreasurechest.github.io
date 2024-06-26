@@ -1,4 +1,4 @@
-# cCOMING SOON！
+# COMING SOON！
 
 
 ### hi this is toby
