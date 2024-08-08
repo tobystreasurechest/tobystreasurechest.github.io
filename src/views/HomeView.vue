@@ -6,7 +6,7 @@
     <div class="name">Chenxi Ruan 阮晨曦 Toby</div>
     <div class="mask-group">
       <div class="ellipse">
-        <div class="profile-pic"></div>
+        <img src="/src/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
       </div>
     </div>
     <div class="university">South China University of Technology</div>
@@ -302,7 +302,6 @@ body {
 .profile-pic {
   width: 100%;
   height: 100%;
-  background: url('7ad884bbb93bc370ec1ac5f78e50c95.jpg') no-repeat center center;
   background-size: cover;
 }
 
