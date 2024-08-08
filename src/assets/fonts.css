@@ -1,0 +1,14 @@
+  @font-face {
+    font-family: 'Inknut Antiqua';
+    src: url('@/assets/fonts/InknutAntiqua-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Judson';
+    src: url('@/assets/fonts/Judson-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
