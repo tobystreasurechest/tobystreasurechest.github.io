@@ -38,12 +38,12 @@
   <style scoped>
   .additional-content {
     position:absolute;
-    left: 550px;
+    left: 80px;
     top: 720px;
   }
   .livcontent {
     position:absolute;
-    left: 900px;
+    left: 450px;
     top: 700px;
     width: 530px;
     height: 40px;
@@ -51,12 +51,12 @@
   }
   .additional-content2 {
     position:absolute;
-    left: 550px;
+    left: 80px;
     top: 1020px;
   }
   .bdcicontent {
     position:absolute;
-    left: 900px;
+    left: 450px;
     top: 1000px;
     width: 530px;
     height: 40px;

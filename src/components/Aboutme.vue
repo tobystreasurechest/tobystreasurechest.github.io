@@ -20,7 +20,7 @@
     position:absolute;
     width: 880px;
     height: 40px;
-    left: 550px;
+    left: 80px;
     top: 220px;
     text-align: justify;
   }

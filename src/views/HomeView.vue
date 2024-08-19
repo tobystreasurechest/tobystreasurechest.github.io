@@ -1,6 +1,20 @@
 <template>
   <div class="container">
-    <div class="rectangle1"></div>
+    <div class="rectangle1">
+      <div v-if="activeTab === 'home'">
+    <div class="about-me-content">
+      <div class="about-me">About Me </div>
+      <AboutmeContent />
+    </div>
+    <div class="projects-content">
+      <div class="projects">Projects & Competition</div>
+      <ProjectsContent/>
+    </div>
+    </div>
+    <div v-if="activeTab === 'upcoming'">
+      <UpcomingContent/>
+    </div>
+    </div>
     <div class="rectangle2"></div>
     <div class="rectangle3"></div>
     <div class="name">Chenxi Ruan 阮晨曦 Toby</div>
@@ -15,24 +29,6 @@
       <span class="nav-item" @click="activeTab = 'upcoming'" :class="{ 'active': activeTab === 'upcoming' }">Upcoming Works</span>
     </div>
     <div class="latest-news">Latest News</div>
-    <div v-if="activeTab === 'home'">
-    <div class="about-me-content">
-      <div class="about-me">About Me </div>
-      <AboutmeContent />
-    </div>
-    <div class="projects-content">
-      <div class="projects">Projects & Competition</div>
-      <ProjectsContent/>
-    </div>
-    </div>
-    <div v-if="activeTab === 'upcoming'">
-      <UpcomingContent/>
-    </div>
-    <div v-if="activeTab === 'cv'">
-      <div class="cv-content">
-        <h2>Still updating ~</h2>
-      </div>
-    </div>
     <div class="news">
       <LatestContent />
     </div>
@@ -229,17 +225,19 @@ body {
   font-family: 'Inter', sans-serif;
   width: 1440px;
   height: 1500px;
-  background: linear-gradient(359.26deg, #FFF8BD 8.37%, #CEA5A3 135.47%);
+  background:radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
 }
+/* update*/
 
 .container {
   position: relative;
   width: 1440px;
   height: 1500px;
+  
 }
 
 .rectangle1 {
-  position: absolute;
+  position: relative;
   width: 1050px;
   height: 1430px;
   left: 470px;
@@ -248,6 +246,9 @@ body {
   box-shadow: inset 0px 4px 6px 3px rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(5px);
   border-radius: 30px;
+  display: inline-block;
+  
+
 }
 
 .rectangle2,
@@ -375,7 +376,7 @@ body {
 .about-me {
   width: 150px;
   height: 40px;
-  left: 500px;
+  left: 50px;
   top: 165px;
 }
 
@@ -383,7 +384,7 @@ body {
 .projects {
   width: 350px;
   height: 40px;
-  left: 500px;
+  left: 50px;
   top: 637px;
 }
 

@@ -17,7 +17,7 @@
   <style scoped>
   .othercontent {
     position:absolute;
-    left: 550px;
+    left: 80px;
     top: 200px;
     width: 800px;
     height: 40px;
