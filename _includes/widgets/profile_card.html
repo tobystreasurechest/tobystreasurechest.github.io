@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col">
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                            <i class="fas fa-envelope"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
                         </a>
 
                         {% if site.data.profile.gscholar %}
@@ -78,6 +78,12 @@
                         {% if site.data.profile.twitter %}
                         <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        {% endif %}
+                        
+                        {% if site.data.profile.instagram %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.instagram.com/{{ site.data.profile.instagram }}">
+                            <i class="fab fa-instagram"></i> Instagram
                         </a>
                         {% endif %}
 
