@@ -4,9 +4,7 @@ navbar_name: "Chenxi Ruan"
 
 positions:
 - logo: /assets/images/badges/scut.jpg  # Logo is optional
-  name: Senior Undergraduate, South China University of Technology
-- logo: /assets/images/badges/hkustgz.png # Logo is optional
-  name: RA, CIVAL Lab, Hong Kong University of Science and Technology(Guangzhou)
+  name: Final-year Undergraduate, South China University of Technology
 
 
 email: "chenxiruan64@gmail.com"
@@ -23,14 +21,13 @@ instagram: rr_chenxi
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am Chenxi Ruan, a senior student majoring in software engineering and business administration at 
+    Hi! I am Chenxi Ruan, a final-year undergraduate student majoring in software engineering and business administration at 
     South China University of Technology. Meanwhile, I am now working as a research assistant in the <a href="https://hkust-cival.com/" target="_blank" color: palevioletred>HKUST-CIVAL</a>, supervised 
     by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I am intereted in Vis4Dataset and aim to develop a visualization tool that illustrates how datasets influence model training, allowing users 
+    to track the model’s learning and improvements over time recently.
   </p>
 
 portrait_url: /assets/images/portrait.jpg
