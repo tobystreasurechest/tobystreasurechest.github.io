@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Chenxi Ruan"
 
 positions:
-- logo: /assets/images/badges/scut.png  # Logo is optional
+- logo: /assets/images/badges/scut.jpg  # Logo is optional
   name: Senior Undergraduate, South China University of Technology
 - name: RA, CIVAL Lab, Hong Kong University of Science and Technology(Guangzhou)
 
@@ -35,7 +35,7 @@ portrait_caption: >-
 
 education:
 - name: South China University of Technology
-  logo: /assets/images/badges/scut.png
+  logo: /assets/images/badges/scut.jpg
   position: Software Engineering and Business Administration
   date: Sep. 2021 - present
 
