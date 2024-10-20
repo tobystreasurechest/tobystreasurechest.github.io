@@ -39,11 +39,16 @@ education:
   logo: /assets/images/badges/scut.jpg
   position: Software Engineering and Business Administration
   date: Sep. 2021 - present
+  
+experience:
+- name: The Hong Kong University of Science and Technology (Guangzhou)
+  logo: /assets/images/badges/hkustgz.png
+  position: Research Intern
+  date: Jun. 2024 - Present
+  
 
-# awards:
-# - name: Award Name 2
-#   date: 2024
-# - name: Award Name 1 
-#   date: 2021
-# - name: A quick brown fox jumps over the lazy dog and runs away award
-#   date: 2021
+awards:
+- name: The Third Prize Winner(Top 3%) of CCF Big Data and Computing Intelligence Contest (BDCI)-Urban Population Analysis and Prediction
+  date: 2024
+- name: The Third Prize Winner of “Greater Bay Cup” Financial Mathematical Modeling Competition 
+  date: 2023
