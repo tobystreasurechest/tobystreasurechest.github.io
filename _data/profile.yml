@@ -3,7 +3,7 @@ secondary_name: "阮晨曦"
 navbar_name: "Chenxi Ruan"
 
 positions:
-- logo: /assets/images/badges/scut.jpg  # Logo is optional
+# - logo: /assets/images/badges/scut.jpg 
   name: Final-year Undergraduate, South China University of Technology
 
 
@@ -32,7 +32,7 @@ short_bio: >-
 
 portrait_url: /assets/images/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Me in Xiamen
 
 education:
 - name: South China University of Technology
