@@ -3,6 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    background: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
 }
 
 h1, h2, h3, h4, h5, h6,
