@@ -5,7 +5,8 @@ navbar_name: "Chenxi Ruan"
 positions:
 - logo: /assets/images/badges/scut.jpg  # Logo is optional
   name: Senior Undergraduate, South China University of Technology
-- name: RA, CIVAL Lab, Hong Kong University of Science and Technology(Guangzhou)
+- logo: /assets/images/badges/hkustgz.png # Logo is optional
+  name: RA, CIVAL Lab, Hong Kong University of Science and Technology(Guangzhou)
 
 
 email: "chenxiruan64@gmail.com"
