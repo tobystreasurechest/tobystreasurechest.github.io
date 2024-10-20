@@ -1,5 +1,5 @@
-primary_name: "Chenxi Ruan"
-secondary_name: "阮晨曦"
+primary_name: "Chenxi Ruan(阮晨曦)"
+secondary_name: ""
 navbar_name: "Chenxi Ruan"
 
 positions:
@@ -36,7 +36,7 @@ portrait_caption: >-
 education:
 - name: South China University of Technology
   logo: /assets/images/badges/scut.png
-  position:Software Engineering and Business Administration
+  position: Software Engineering and Business Administration
   date: Sep. 2021 - present
 
 # awards:
