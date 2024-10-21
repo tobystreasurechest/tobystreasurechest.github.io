@@ -6,9 +6,6 @@ group: DAILY
 ---
 <div>
   <img src="{{ 'assets/images/etc/daily2.jpg' | relative_url }}" class="img-fluid rounded" >
-  <div class="card-body">
-    <p class="card-text">
-      21
-    </p>
-  </div>
 </div>
+---
+
