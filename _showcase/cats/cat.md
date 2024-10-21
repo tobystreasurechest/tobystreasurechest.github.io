@@ -2,8 +2,8 @@
 show: true
 width: 3
 date: 2020-01-12 00:01:00 +0800
-group: Cats
+group: DAILY
 ---
 <div>
-<img src="{{ 'assets/images/etc/cat1.jpg' | relative_url }}" class="img-fluid rounded" >
+<img src="{{ 'assets/images/etc/daily1.jpg' | relative_url }}" class="img-fluid rounded" >
 </div>
