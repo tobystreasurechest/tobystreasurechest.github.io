@@ -7,5 +7,5 @@ group: DAILY
 <div>
   <img src="{{ 'assets/images/etc/daily2.jpg' | relative_url }}" class="img-fluid rounded" >
 </div>
----
+
 
