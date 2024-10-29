@@ -26,8 +26,9 @@ short_bio: >-
     by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a>.
   </p>
   <p>
-    I am intereted in Vis4Dataset and aim to develop a visualization tool that illustrates how datasets influence model training, allowing users 
-    to track the model’s learning and improvements over time recently.
+   My research focuses on Dataset Bias Detection and Modeling, as well as Dataset Visualization and Comparison. 
+   I investigate methods to detect and model biases within datasets, which involves training models to identify 
+   subtle differences between datasets and uncover unique semantic traits or hidden biases inherent to each one.
   </p>
 
 portrait_url: /assets/images/portrait.jpg
