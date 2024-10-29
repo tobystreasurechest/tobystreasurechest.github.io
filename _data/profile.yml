@@ -27,8 +27,9 @@ short_bio: >-
   </p>
   <p>
    My research focuses on Dataset Bias Detection and Modeling, as well as Dataset Visualization and Comparison. 
-   I investigate methods to detect and model biases within datasets, which involves training models to identify 
-   subtle differences between datasets and uncover unique semantic traits or hidden biases inherent to each one.
+I investigate methods to detect and model biases within datasets, focusing on training models to identify subtle 
+differences and reveal unique semantic traits or hidden biases inherent to each dataset. Additionally, I develop 
+visualization techniques to make these insights more interpretable, allowing for clearer comparisons across datasets.
   </p>
 
 portrait_url: /assets/images/portrait.jpg
