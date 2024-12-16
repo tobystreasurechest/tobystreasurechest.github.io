@@ -1,6 +1,6 @@
 ---
 show: true
-width: 3
+width: 2.5
 date: 2020-01-10 00:01:00 +0800
 group: Year of 2024
 ---
