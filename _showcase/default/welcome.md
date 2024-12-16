@@ -9,5 +9,11 @@ date: 2024-01-12 00:01:00 +0800
     <p>
     💎💎Here I will share my daily life！
     </p>
+    <p>
+     Hope to make me more careful to record every day.
+    </p>
+    <p>
 
+        
+    </p>
 </div>
