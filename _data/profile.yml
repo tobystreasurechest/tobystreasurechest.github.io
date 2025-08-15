@@ -21,15 +21,15 @@ instagram: rr_chenxi
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am Chenxi Ruan, a final-year undergraduate student majoring in software engineering and business administration at 
-    South China University of Technology. Meanwhile, I am now working as a research assistant in the <a href="https://hkust-cival.com/" target="_blank" color: palevioletred>HKUST-CIVAL</a>, supervised 
-    by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a>.
+    Hi! I am Chenxi Ruan, a Year 1 PhD student in Data Science and Analytics Thrust at the Information hub, Hong Kong
+    University of Science and Technology (Guangzhou), supervised by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a>.
+    I received my B.Eng degree in Software Engineering in South China University of Technology in 2025.
   </p>
   <p>
-   My research focuses on Dataset Bias Detection and Modeling, as well as Dataset Visualization and Comparison. 
-   I investigate methods to detect and model biases within datasets, focusing on training models to identify subtle 
-   differences and reveal unique semantic traits or hidden biases inherent to each dataset. Additionally, I develop 
-   visualization techniques to make these insights more interpretable, allowing for clearer comparisons across datasets.
+    My research interests focus on multimodal large language models, with an emphasis on visualization and interpretability for understanding cross-modal semantic alignment.
+    I am currently conducting research on evaluating multimodal large language models’ understanding of color–concept associations.
+    
+
   </p>
 
 portrait_url: /assets/images/portrait.jpg
@@ -40,13 +40,17 @@ education:
 - name: South China University of Technology
   logo: /assets/images/badges/scut.jpg
   position: Software Engineering and Business Administration
-  date: Sep. 2021 - present
+  date: Sep. 2021 - Jul. 2025
+- name: The Hong Kong University of Science and Technology (Guangzhou)
+  logo: /assets/images/badges/hkustgz.png
+  position: Data Science and Analytics Thrust
+  date: Sep. 2025 - 
   
 experience:
 - name: The Hong Kong University of Science and Technology (Guangzhou)
   logo: /assets/images/badges/hkustgz.png
   position: Research Intern, CIVAL Lab
-  date: Jun. 2024 - Present
+  date: Jun. 2024 -Jul. 2025
 - name: South China University of Technology
   logo: /assets/images/badges/scut.jpg
   position: Project Intern, Key Laboratory of Big Data and Intelligent Robot
