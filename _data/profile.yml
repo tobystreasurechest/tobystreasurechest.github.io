@@ -1,15 +1,15 @@
-primary_name: "Chenxi Ruan"
+primary_name: "Chenxi RUAN"
 secondary_name: "阮晨曦"
-navbar_name: "Chenxi Ruan"
+navbar_name: "Chenxi RUAN"
 
 positions:
 # - logo: /assets/images/badges/scut.jpg 
-  name: Final-year Undergraduate, South China University of Technology
+# name: Final-year Undergraduate, South China University of Technology
 
 
-email: "chenxiruan64@gmail.com"
+email: "cruan361@connect.hkust-gz.edu.cn"
 # cv_link: link-to-your-cv-file
-# gscholar: xFmQpf4AAAAJ   This is an example, replace it with your own Google Scholar ID
+gscholar: wlb4xXkAAAAJ&hl
 github: tobystreasurechest
 instagram: rr_chenxi
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -23,7 +23,7 @@ short_bio: >-
   <p>
     Hi! I am Chenxi Ruan, a Year 1 PhD student in Data Science and Analytics Thrust at the Information hub, Hong Kong
     University of Science and Technology (Guangzhou), supervised by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a>.
-    I received my B.Eng degree in Software Engineering in South China University of Technology in 2025 supervised by <a href="https://zkdeng.org" target="_blank" color: palevioletred>Prof. Zikun Deng</a>.
+    I received my B.Eng degree in Software Engineering and Business Administration in South China University of Technology in 2025 supervised by <a href="https://zkdeng.org" target="_blank" color: palevioletred>Prof. Zikun Deng</a>.
   </p>
   <p>
     My research interests focus on multimodal large language models, with an emphasis on visualization and interpretability for understanding cross-modal semantic alignment.
@@ -33,8 +33,8 @@ short_bio: >-
   </p>
 
 portrait_url: /assets/images/portrait.jpg
-portrait_caption: >-
-  Me in Xiamen
+# portrait_caption: >-
+# Me in Xiamen
 
 education:
 - name: South China University of Technology
@@ -61,5 +61,4 @@ experience:
 awards:
 - name: The Third Prize Winner(Top 3%) of CCF Big Data and Computing Intelligence Contest (BDCI)-Urban Population Analysis and Prediction
   date: 2024
-- name: The Third Prize Winner of “Greater Bay Cup” Financial Mathematical Modeling Competition 
-  date: 2023
+
