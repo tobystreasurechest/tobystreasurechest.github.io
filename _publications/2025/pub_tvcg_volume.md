@@ -10,7 +10,7 @@ pub:            "IEEE Transactions on Visualization and Computer Graphics(TVCG)"
 
 abstract: >-
   A technique called VolumeSTCube, that incorporates a data transformation framework, volume visualization techniques, and tailored spatiotemporal interactions to visualize large-scale ST series in a spacetime cube effectively.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/volume.jpg
 authors:
   - Zikun Deng
   - Jiabao Huang

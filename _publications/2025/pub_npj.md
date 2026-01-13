@@ -10,7 +10,7 @@ pub:            "npj Heritage Science"
 
 abstract: >-
   
-cover:          /assets/images/covers/cover4.png
+cover:          /assets/images/covers/npj.png
 authors:
   - Jian Yu
   - Yilin Ye
