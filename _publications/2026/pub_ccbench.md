@@ -1,6 +1,6 @@
 ---
 title:          "ColorConceptBench: A Benchmark for Probabilistic Color-Concept Understanding in Text-to-Image Models"
-date:           2026-01 00:01:00 +0800
+date:           2026-01-26 00:01:00 +0800
 selected:       true
 # pub:            "IEEE Transactions on Visualization and Computer Graphics(TVCG)"
 # pub_pre:        "Submitted to "
