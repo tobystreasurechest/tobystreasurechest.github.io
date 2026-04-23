@@ -2,7 +2,7 @@
 title:          "SceneWeaver: A Multi-Agent Collaborative System for 3D Scene Creation in Video Games"
 date:           2025-12-1 00:01:00 +0800
 selected:       true
-pub:            "Proceedings of the 18th International Symposium on Visual Information Communication and Interaction"
+pub:            "Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI 2025)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'

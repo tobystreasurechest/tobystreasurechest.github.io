@@ -25,7 +25,9 @@
         {%- assign name = key -%}
     {%- endif -%}
 
-    {%- if info['bold'] == true -%}
+    {%- if info['underline'] == true -%}
+        {%- assign display_name = name | append: mark | prepend: '<span class="author-self">' | append: "</span>" -%}
+    {%- elsif info['bold'] == true -%}
         {%- assign display_name = name | append: mark | prepend: "<strong>" | append: "</strong>" -%}
     {%- else -%}
         {%- assign display_name = name | append: mark -%}

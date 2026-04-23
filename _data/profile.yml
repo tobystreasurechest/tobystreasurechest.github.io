@@ -22,29 +22,31 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     Hi! I am Chenxi Ruan, a Year 1 PhD student in Data Science and Analytics Thrust at the Information hub, Hong Kong
-    University of Science and Technology (Guangzhou), supervised by <a href="https://zeng-wei.com/" target="_blank" color: palevioletred>Prof. Wei Zeng</a> and <a href="https://personal.hkust-gz.edu.cn/ding/" target="_blank" color: palevioletred>Prof. Zishuo Ding</a>.
-    I received my B.Eng degree in Software Engineering and Business Administration in South China University of Technology in 2025 supervised by <a href="https://zkdeng.org" target="_blank" color: palevioletred>Prof. Zikun Deng</a>.
+    University of Science and Technology (Guangzhou), supervised by <a href="https://zeng-wei.com/" target="_blank">Prof. Wei Zeng</a> and <a href="https://personal.hkust-gz.edu.cn/ding/" target="_blank">Prof. Zishuo Ding</a>.
+    I received my B.Eng degree in Software Engineering and Business Administration in South China University of Technology in 2025 supervised by <a href="https://zkdeng.org" target="_blank">Prof. Zikun Deng</a>.
   </p>
   <p>
-    My research interests include visual analytics, Generative AI understanding and application, and code
-    generation. I am passionate about leveraging data-driven techniques to extract meaningful insights and create innovative solutions.
-    
-
+    I am passionate about leveraging data-driven techniques to extract meaningful insights and create innovative solutions.
   </p>
+
+interests:
+  - Visual Analytics
+  - Generative AI
+  - Code Generation
 
 portrait_url: /assets/images/portrait.png
 # portrait_caption: >-
 # Me in Xiamen
 
 education:
+- name: The Hong Kong University of Science and Technology (Guangzhou)
+  logo: /assets/images/badges/hkustgz.png
+  position: Data Science and Analytics Thrust
+  date: Sep. 2025 -
 - name: South China University of Technology
   logo: /assets/images/badges/scut.jpg
   position: Software Engineering and Business Administration
   date: Sep. 2021 - Jul. 2025
-- name: The Hong Kong University of Science and Technology (Guangzhou)
-  logo: /assets/images/badges/hkustgz.png
-  position: Data Science and Analytics Thrust
-  date: Sep. 2025 - 
   
 experience:
 - name: The Hong Kong University of Science and Technology (Guangzhou)

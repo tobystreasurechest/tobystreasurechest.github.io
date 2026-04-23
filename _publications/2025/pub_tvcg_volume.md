@@ -2,7 +2,7 @@
 title:          "Volume-Based Space-Time Cube for Large-Scale Continuous Spatial Time Series"
 date:           2025-01-30 00:01:00 +0800
 selected:       true
-pub:            "IEEE Transactions on Visualization and Computer Graphics(TVCG)"
+pub:            "IEEE Transactions on Visualization and Computer Graphics (TVCG)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
