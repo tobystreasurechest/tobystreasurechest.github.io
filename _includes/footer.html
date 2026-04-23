@@ -12,5 +12,9 @@
                 </div>
             </div>
         </div>
+        <div class="footer-credit">
+            © {{ "now" | date: "%Y" }} Chenxi RUAN · HKUST(GZ) ·
+            <a href="mailto:{{ site.data.profile.email | encode_email }}">{{ site.data.profile.email | replace: "@", "(at)" }}</a>
+        </div>
     </div>
 </footer>

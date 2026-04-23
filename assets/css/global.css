@@ -461,6 +461,23 @@ a:hover {
     color: var(--orange);
 }
 
+/* ---- Footer ---- */
+.footer-credit {
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.78rem;
+    color: #bbb;
+    padding: 12px 0 16px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    letter-spacing: 0.03em;
+}
+.footer-credit a {
+    color: #bbb;
+}
+.footer-credit a:hover {
+    color: var(--orange);
+}
+
 /* ---- Misc (preserved) ---- */
 .text-profile-position { font-weight: 400; }
 .text-profile-bio      { font-weight: 400; }
