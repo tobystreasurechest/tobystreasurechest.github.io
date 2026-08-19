@@ -19,4 +19,5 @@ authors:
   - Wei Zeng
 links:
   Paper: https://arxiv.org/abs/2601.16836
+  Dataset & Code: https://huggingface.co/datasets/ColorConceptBench/ColorConceptBench
 ---
