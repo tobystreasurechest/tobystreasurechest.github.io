@@ -13,8 +13,8 @@ abstract: >-
 cover:          /assets/images/covers/ccbench.png
 authors:
   - Chenxi Ruan
-  - Yu Xiao
   - Yihan Hou
+  - Yu Xiao
   - Guosheng Hu
   - Wei Zeng
 links:
