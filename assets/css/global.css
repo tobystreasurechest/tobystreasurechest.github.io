@@ -13,8 +13,9 @@
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    padding-top: 5.0rem;
+    padding-top: 4.0rem;
     background-color: var(--bg);
+    isolation: isolate;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -34,6 +35,8 @@ a:hover {
 
 /* ---- Navbar ---- */
 .navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
     background: rgba(255, 248, 242, 0.80) !important;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -42,6 +45,11 @@ a:hover {
 }
 
 .navbar .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
     background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,6 +59,37 @@ a:hover {
     font-style: italic;
     font-size: 1.3rem;
     letter-spacing: 0.02em;
+}
+
+@media (min-width: 576px) {
+    .navbar .navbar-brand {
+        margin-left: -12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar .navbar-brand {
+        margin-left: -32px;
+    }
+}
+
+.navbar-mascot {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 42px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+/* Frame the character while preserving the original image and its transparent margins. */
+.navbar-mascot img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    max-width: none;
+    left: -15px;
+    top: -21px;
 }
 
 .navbar .nav-link {
@@ -117,44 +156,50 @@ a:hover {
 .bg-bubble {
     position: absolute;
     border-radius: 50%;
-    filter: blur(40px);
-    opacity: 0.28;
+    filter: blur(28px);
+    opacity: 0.34;
 }
 .bg-bubble:nth-child(1) {
     width: 420px; height: 420px;
     background: #F4722B;
     top: -120px; left: -100px;
-    animation: bg-float 7s ease-in-out infinite;
+    animation: bg-float 10s ease-in-out -2s infinite;
 }
 .bg-bubble:nth-child(2) {
     width: 320px; height: 320px;
     background: #FFC857;
     top: 30%; right: -80px;
-    animation: bg-float 9s ease-in-out infinite reverse;
+    animation: bg-float 13s ease-in-out -6s infinite reverse;
 }
 .bg-bubble:nth-child(3) {
     width: 260px; height: 260px;
     background: #F4722B;
     bottom: 10%; left: 15%;
-    animation: bg-float 6s ease-in-out infinite 1.5s;
+    animation: bg-float 11s ease-in-out -4s infinite;
 }
 .bg-bubble:nth-child(4) {
     width: 200px; height: 200px;
     background: #FFC857;
     top: 55%; left: 45%;
-    animation: bg-float 11s ease-in-out infinite 0.5s reverse;
+    animation: bg-float 16s ease-in-out -9s infinite reverse;
 }
 .bg-bubble:nth-child(5) {
     width: 350px; height: 350px;
     background: #FFC857;
     bottom: -100px; right: 10%;
-    animation: bg-float 8s ease-in-out infinite 2s;
+    animation: bg-float 12s ease-in-out -7s infinite;
 }
 
 @keyframes bg-float {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33%       { transform: translate(30px, -40px) scale(1.05); }
-    66%       { transform: translate(-20px, 20px) scale(0.97); }
+    0%, 100% { transform: translate(-30px, 25px) scale(1); }
+    33%      { transform: translate(min(8vw, 110px), -100px) scale(1.12); }
+    66%      { transform: translate(max(-6vw, -80px), -35px) scale(0.94); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .bg-bubble {
+        animation: none;
+    }
 }
 
 @keyframes float {
