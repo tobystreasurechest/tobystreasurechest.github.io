@@ -2,9 +2,9 @@
 title:          "ColorConceptBench: A Benchmark for Probabilistic Color-Concept Understanding in Text-to-Image Models"
 date:           2026-01-26 00:01:00 +0800
 selected:       true
-# pub:            "IEEE Transactions on Visualization and Computer Graphics(TVCG)"
+pub:            "Advances in Neural Information Processing Systems (NeurlPS 2026)"
 # pub_pre:        "Submitted to "
-pub_post:       'Under review.'
+# pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 # pub_date:       "2025"
 
