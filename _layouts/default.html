@@ -11,10 +11,11 @@
     />
     <meta name="description" content="Chenxi Ruan HKUST(GZ)" />
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}?v=coconut-1">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-coconut-32.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/favicon-coconut-192.png' | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon-coconut.png' | relative_url }}">
+    {% assign favicon_version = 'coconut-2' %}
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}?v={{ favicon_version }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-coconut-32.png' | relative_url }}?v={{ favicon_version }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/favicon-coconut-192.png' | relative_url }}?v={{ favicon_version }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon-coconut.png' | relative_url }}?v={{ favicon_version }}">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
@@ -36,7 +37,7 @@
         <span class="bg-bubble"></span>
     </div>
     {% include navbar.html %}
-    <div class="container">
+    <div class="container{% if page.content_class %} {{ page.content_class }}{% endif %}">
         {{content}}
     </div>
     {% include footer.html %}

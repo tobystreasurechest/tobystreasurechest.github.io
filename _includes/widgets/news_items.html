@@ -1,0 +1,14 @@
+{% assign news_by_year = include.items | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% for year in news_by_year %}
+<div class="media py-1 {% unless forloop.first %}border-top border-gray{% endunless %}">
+    <div class="mr-3 news-year my-1">{{ year.name }}</div>
+    <div class="media-body">
+        {% for item in year.items %}
+        <div class="news-entry my-1 d-flex">
+            <div class="news-title">{{ item.title }}</div>
+            <div class="ml-auto mt-auto news-date no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

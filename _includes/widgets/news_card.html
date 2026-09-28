@@ -1,21 +1,20 @@
-{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+{% assign visible_count = include.limit | default: 3 %}
+{% assign recent_news = sorted_news | slice: 0, visible_count %}
+{% assign older_news = sorted_news | slice: visible_count, sorted_news.size %}
 
 <div class="card border-0 shadow-sm my-3">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
     <div class="px-3 pb-1">
-        {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
-            <div class="mr-3 news-year my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="my-1 d-flex">
-                    <div class="news-title">{{ item.title }}</div>
-                    <div class="ml-auto mt-auto news-date no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        {% endfor %}
+        {% include widgets/news_items.html items=recent_news %}
+        {% if older_news.size > 0 %}
+        <details class="news-archive">
+            <summary>
+                <span class="news-expand-label">Show older news ({{ older_news.size }})</span>
+                <span class="news-collapse-label">Show less</span>
+            </summary>
+            {% include widgets/news_items.html items=older_news %}
+        </details>
+        {% endif %}
     </div>
 </div>
