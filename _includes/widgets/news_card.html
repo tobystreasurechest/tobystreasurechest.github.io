@@ -3,9 +3,9 @@
 {% assign recent_news = sorted_news | slice: 0, visible_count %}
 {% assign older_news = sorted_news | slice: visible_count, sorted_news.size %}
 
-<div class="card border-0 shadow-sm my-3">
-    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
-    <div class="px-3 pb-1">
+<div class="card border-0 my-3">
+    <h2 class="section-heading">News</h2>
+    <div class="pb-1">
         {% include widgets/news_items.html items=recent_news %}
         {% if older_news.size > 0 %}
         <details class="news-archive">

@@ -12,6 +12,7 @@ email: "cruan361@connect.hkust-gz.edu.cn"
 gscholar: wlb4xXkAAAAJ&hl
 github: tobystreasurechest
 instagram: rr_chenxi
+rednote: https://xhslink.cn/o/5UbZqEBTLzK
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -21,7 +22,7 @@ instagram: rr_chenxi
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am Chenxi Ruan, a Year 2 PhD student in Data Science and Analytics Thrust at the Information hub, Hong Kong
+    Hi! I am Chenxi Ruan, a Year 2 PhD student in Data Science and Analytics Thrust at the Information Hub, Hong Kong
     University of Science and Technology (Guangzhou), supervised by <a href="https://zeng-wei.com/" target="_blank">Prof. Wei Zeng</a> and <a href="https://personal.hkust-gz.edu.cn/ding/" target="_blank">Prof. Zishuo Ding</a>.
     I received my B.Eng degree in Software Engineering and Business Administration in South China University of Technology in 2025.
   </p>
@@ -63,4 +64,3 @@ experience:
 awards:
 - name: The Third Prize Winner(Top 3%) of CCF Big Data and Computing Intelligence Contest (BDCI)-Urban Population Analysis and Prediction
   date: 2024
-

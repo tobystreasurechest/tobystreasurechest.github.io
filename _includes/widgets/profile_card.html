@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col">
-        <div class="card border-0 shadow-sm">
+        <div class="profile-card card border-0">
 
             <div class="card-body px-4 px-md-5 pb-4 pt-4">
                 <div class="d-flex align-items-start flex-wrap flex-md-nowrap">
@@ -11,9 +11,13 @@
                         <img
                             src="{{ site.data.profile.portrait_url | relative_url }}"
                             class="portrait-img"
+                            alt="{{ site.data.profile.primary_name }}"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="{{ site.data.profile.portrait_caption }}">
+                        <span class="portrait-mascot" aria-hidden="true">
+                            <img src="{{ '/assets/images/navbar-mascot.png' | relative_url }}" alt="" width="112" height="112">
+                        </span>
                     </div>
                     {% endif %}
 
@@ -91,6 +95,12 @@
                     {% if site.data.profile.instagram %}
                     <a class="pr-3 no-break" target="_blank" href="https://instagram.com/{{ site.data.profile.instagram }}">
                         <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.profile.rednote %}
+                    <a class="pr-3 no-break" href="{{ site.data.profile.rednote | escape }}" target="_blank" rel="noopener noreferrer">
+                        {% include icons/rednote.svg %} Rednote
                     </a>
                     {% endif %}
 

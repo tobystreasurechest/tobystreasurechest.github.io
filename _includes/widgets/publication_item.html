@@ -40,10 +40,9 @@
 </div>
 
 <!-- Mobile -->
-<div class="d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if item.cover %}lazy{% endif %}"
-     data-src="{{ item.cover | relative_url }}">
-    <div class="w-100" style="background-color: rgba(255,255,255,0.92);">
-        <div class="py-3 px-4">
+<div class="d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
+    <div class="w-100">
+        <div class="pub-mobile-content">
             <h5 class="mt-0 mb-1 pub-title">{{ item.title }}</h5>
             <p class="mt-0 mb-1 small text-muted">
                 {% include widgets/author_list.html authors=item.authors %}

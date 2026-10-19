@@ -20,8 +20,8 @@ content_class: homepage-content
 {% endif %}
 
 {% if site.publications.size > 0 %}
-<section id="publications" class="homepage-publications card border-0 shadow-sm my-3" aria-labelledby="publications-title">
-    <h2 id="publications-title" class="h6 p-3 mb-0 border-bottom border-gray"><i class="fas fa-book-open" aria-hidden="true"></i> Publications</h2>
+<section id="publications" class="homepage-publications card border-0 my-3" aria-labelledby="publications-title">
+    <h2 id="publications-title" class="section-heading">Publications</h2>
     {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
     {% include widgets/publications_by_year.html years=pubs_by_year embedded=true %}
 </section>
