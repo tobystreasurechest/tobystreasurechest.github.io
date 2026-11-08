@@ -169,15 +169,21 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 }
 
 /* News */
-.news-archive { margin-top: 8px; }
-.news-archive summary {
-    padding: 10px 0;
-    color: var(--accent);
-    font-size: 0.85rem;
-    cursor: pointer;
+.news-scroll {
+    max-height: 10rem;
+    overflow-y: auto;
+    padding-right: 12px;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: var(--section-line) transparent;
 }
-.news-collapse-label, .news-archive[open] .news-expand-label { display: none; }
-.news-archive[open] .news-collapse-label { display: inline; }
+.news-scroll:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+.news-scroll::-webkit-scrollbar { width: 6px; }
+.news-scroll::-webkit-scrollbar-thumb { background: var(--section-line); border-radius: 3px; }
+.news-scroll::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 .news-entry { gap: 12px; }
 .news-year { font-size: 0.85rem; font-weight: 700; color: var(--muted); white-space: nowrap; }
 .news-title { color: var(--ink); }

@@ -1,20 +1,8 @@
 {% assign sorted_news = site.news | sort: "date" | reverse %}
-{% assign visible_count = include.limit | default: 3 %}
-{% assign recent_news = sorted_news | slice: 0, visible_count %}
-{% assign older_news = sorted_news | slice: visible_count, sorted_news.size %}
 
 <div class="card border-0 my-3">
-    <h2 class="section-heading">News</h2>
-    <div class="pb-1">
-        {% include widgets/news_items.html items=recent_news %}
-        {% if older_news.size > 0 %}
-        <details class="news-archive">
-            <summary>
-                <span class="news-expand-label">Show more ({{ older_news.size }})</span>
-                <span class="news-collapse-label">Show less</span>
-            </summary>
-            {% include widgets/news_items.html items=older_news %}
-        </details>
-        {% endif %}
+    <h2 id="news-title" class="section-heading">News</h2>
+    <div class="news-scroll pb-1" role="region" aria-labelledby="news-title" tabindex="0">
+        {% include widgets/news_items.html items=sorted_news %}
     </div>
 </div>
