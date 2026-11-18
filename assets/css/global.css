@@ -220,10 +220,6 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 }
 .pub-abstract {
     line-height: 1.6;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 .pub-link {
     display: inline-block;
@@ -238,6 +234,15 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
     white-space: nowrap;
 }
 .pub-link:hover { text-decoration-color: var(--accent); }
+.pub-abstract-toggle {
+    border: 0;
+    background: none;
+    font-family: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+.pub-abstract-toggle:hover,
+.pub-abstract-toggle[aria-expanded="true"] { color: var(--accent-hover); }
 .pub-mobile-content { padding: 16px 0; }
 .nav-pills .nav-link { color: var(--muted); border-radius: 0; }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link { background: #f4f3f1; color: var(--ink); }

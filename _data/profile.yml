@@ -27,13 +27,13 @@ short_bio: >-
     I received my B.Eng degree in Software Engineering and Business Administration in South China University of Technology in 2025.
   </p>
   <p>
-    I am passionate about techniques for generating visual artifacts and leveraging data-driven techniques to extract meaningful insights and create innovative solutions.
+    My research interests lie in visual content generation and color understanding, with a focus on aligning AI models with human perception and creative intent in these domains.
   </p>
 
 interests:
   - Multimodal Generation
-  - Generative AI
-  - Code Generation
+  - Human–AI Alignment
+  - Agentic AI
 
 portrait_url: /assets/images/portrait.jpeg
 # portrait_caption: >-

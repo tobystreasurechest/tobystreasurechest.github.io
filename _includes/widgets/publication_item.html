@@ -1,4 +1,6 @@
 {% assign item = include.item %}
+{% assign abstract_text = item.abstract | strip %}
+{% assign abstract_id = item.id | slugify | prepend: 'abstract-' %}
 
 <!-- Desktop -->
 <div class="d-none d-md-block">
@@ -23,10 +25,12 @@
                 {% if item.pub_date %}<span class="text-muted ml-1">{{ item.pub_date }}</span>{% endif %}
                 {% if item.pub_last %}<span class="ml-1">{{ item.pub_last }}</span>{% endif %}
             </p>
-            {% if item.abstract %}
-            <p class="mt-0 mb-2 small text-muted pub-abstract">{{ item.abstract }}</p>
-            {% endif %}
             <div class="pub-links">
+                {% if abstract_text != empty %}
+                <button type="button" class="pub-link pub-abstract-toggle" data-toggle="collapse"
+                        data-target="#{{ abstract_id }}-desktop" aria-expanded="false"
+                        aria-controls="{{ abstract_id }}-desktop">Abstract</button>
+                {% endif %}
                 {% for link in item.links %}
                 {% if link[1].url %}
                 <a class="pub-link" target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
@@ -35,6 +39,11 @@
                 {% endif %}
                 {% endfor %}
             </div>
+            {% if abstract_text != empty %}
+            <div id="{{ abstract_id }}-desktop" class="collapse">
+                <p class="mt-2 mb-0 small text-muted pub-abstract">{{ item.abstract }}</p>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -51,10 +60,12 @@
                 <span class="pub-venue">{{ item.pub_pre }}{{ item.pub }}{{ item.pub_post }}</span>
                 {% if item.pub_date %}<span class="text-muted ml-1">{{ item.pub_date }}</span>{% endif %}
             </p>
-            {% if item.abstract %}
-            <p class="mt-0 mb-2 small text-muted pub-abstract">{{ item.abstract }}</p>
-            {% endif %}
             <div class="pub-links">
+                {% if abstract_text != empty %}
+                <button type="button" class="pub-link pub-abstract-toggle" data-toggle="collapse"
+                        data-target="#{{ abstract_id }}-mobile" aria-expanded="false"
+                        aria-controls="{{ abstract_id }}-mobile">Abstract</button>
+                {% endif %}
                 {% for link in item.links %}
                 {% if link[1].url %}
                 <a class="pub-link" target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
@@ -63,6 +74,11 @@
                 {% endif %}
                 {% endfor %}
             </div>
+            {% if abstract_text != empty %}
+            <div id="{{ abstract_id }}-mobile" class="collapse">
+                <p class="mt-2 mb-0 small text-muted pub-abstract">{{ item.abstract }}</p>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
