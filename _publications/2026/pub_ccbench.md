@@ -2,7 +2,7 @@
 title:          "ColorConceptBench: A Benchmark for Probabilistic Color-Concept Understanding in Text-to-Image Models"
 date:           2026-09-25 00:01:00 +0800
 selected:       true
-pub:            "Advances in Neural Information Processing Systems (NeurlPS 2026)"
+pub:            "Advances in Neural Information Processing Systems (NeurlPS 2026), Evaluations & Datasets Track"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
